@@ -1,12 +1,12 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
-  name: bluegreen-subs
+  name: bluegreen-subscription
   namespace: bluegreen
   labels:
     app: bluegreen
   annotations:
-    apps.open-cluster-management.io/git-path: rhacm-manifests
+    apps.open-cluster-management.io/git-path: openshift-manifests/bluegreen-php
     apps.open-cluster-management.io/git-branch: main
 spec:
   channel: bluegreen/bluegreen-app-latest

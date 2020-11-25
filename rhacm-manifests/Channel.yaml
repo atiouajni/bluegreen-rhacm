@@ -5,4 +5,5 @@ metadata:
   namespace: bluegreen
 spec:
   type: GitHub
-  pathname: https://github.com/atiouajni/bluegreen-rhacm.git
+  pathname: https://github.com/atiouajni/bluegreen.git
+  
