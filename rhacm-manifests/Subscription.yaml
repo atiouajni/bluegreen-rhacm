@@ -8,7 +8,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/github-path: resources/bluegreen
 spec:
-  channel: bluegreen/bluegreen-latest
+  channel: bluegreen/bluegreen-app-latest
   placement:
     placementRef:
       kind: PlacementRule
