@@ -6,7 +6,8 @@ metadata:
   labels:
     app: bluegreen
   annotations:
-    apps.open-cluster-management.io/github-path: resources/bluegreen
+    apps.open-cluster-management.io/git-path: rhacm-manifests
+    apps.open-cluster-management.io/git-branch: main
 spec:
   channel: bluegreen/bluegreen-app-latest
   placement:
