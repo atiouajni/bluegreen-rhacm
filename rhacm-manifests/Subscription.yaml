@@ -1,14 +1,14 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
-  name: etherpad-app
-  namespace: etherpad
+  name: bluegreen-subs
+  namespace: bluegreen
   labels:
-    app: etherpad-app
+    app: bluegreen
   annotations:
-    apps.open-cluster-management.io/github-path: resources/etherpad
+    apps.open-cluster-management.io/github-path: resources/bluegreen
 spec:
-  channel: etherpad/etherpad-app-latest
+  channel: bluegreen/bluegreen-latest
   placement:
     placementRef:
       kind: PlacementRule
