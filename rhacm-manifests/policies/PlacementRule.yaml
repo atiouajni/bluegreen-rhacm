@@ -9,7 +9,8 @@ spec:
     status: "True"
   clusterSelector:
     matchExpressions:
+    # - {key: environment, operator: In, values: ["dev"]}
       - key: environment
         operator: In
         values: 
-        - "dev"
+        - "dev"       
