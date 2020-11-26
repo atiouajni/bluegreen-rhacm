@@ -18,19 +18,20 @@ After completing this tutorial you will be able to accomplish the following task
 
 # Setup
 
-ssh -o ServerAliveInterval=20 atiouajn-redhat.com@bastion.c6b3.sandbox1886.opentlc.com
-git clone https://github.com/atiouajni/bluegreen.git
-oc new-project bluegreen
-oc apply -f openshift-manifests
+**Connet to the Hub bastion and deploy ACM manifests :**
 
-ssh -o ServerAliveInterval=20 atiouajn-redhat.com@bastion.9efa.sandbox134.opentlc.com
+```shell
+ssh id@server
+
+#Deploy ACM Application, subscription, Channel and policies
 git clone https://github.com/atiouajni/bluegreen-rhacm.git
+cd bluegreen-rhacm
 oc new-project bluegreen
 oc apply -f rhacm-manifests/
 
 oc new-project rhacm-policies
 oc apply -f rhacm-manifests/policies
-
+```
 # Installation
 
 # Usage
@@ -43,7 +44,10 @@ status:
   message: Active
   phase: PropagationFailed
   reason: couldn't find remote ref "refs/heads/master"
-
+**Issue :**
+Edit the subscription manifest and add these labels with your specific branch and path
+    apps.open-cluster-management.io/git-path: openshift-manifests/bluegreen-php
+    apps.open-cluster-management.io/git-branch: main
 # Cleanup
 
 # Documentation
