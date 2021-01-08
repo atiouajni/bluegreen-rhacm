@@ -58,7 +58,7 @@ Comment je peux apporter de la consistence et de la gouvernance dans tous mes cl
 
 
 
-> TAKE AWAY : Améliorer la disponibilité des applications
+> TAKE AWAY : Faciliter la gestion et améliorer la disponibilité des applications
 
 
 FINAL : 
