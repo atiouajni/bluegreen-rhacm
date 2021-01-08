@@ -21,7 +21,7 @@
      - version
      - vendors
      - upgrade
-     - Create a cluster > YAML:ON
+     - Create a cluster > YAML:ON (Openshift Hive)
      - Import cluster
 
 > TAKE AWAY : Gestion du cycle de vie multi-cluster-> Create, import & upgrade
@@ -29,7 +29,7 @@
 **3 - Maintenant que j'ai mes clusters rentrons dans le détails de ce que j'ai > "recherche"**
 
     Pitch :
-     - Navigation dans IHM
+     - Navigation dans IHM (Thanos)
      - Kind:Pod label:app=bluegreen 
      - delete Pod
      - sauvegarder la recherche
@@ -43,9 +43,27 @@
 > TAKE AWAY : multi-cluster Observability 
 
 **5 - Day 2 configuration et management - conformité du cluster**
+
+Comment je peux apporter de la consistence et de la gouvernance dans tous mes clusters ?
+
     Pitch :
     - overview page Govern risk
     - Categories/standard
     - Policy -> inform/enforce  - musthave mustnothave
+    - Parler de Open Policy Agent (OPA)
+
+> TAKE AWAY :  Faciliter la mise en conformité
 
 **6 - Application lifecycle > "Manage Applications"**
+
+
+
+> TAKE AWAY : Améliorer la disponibilité des applications
+
+
+FINAL : 
+Gérer l'environnement de façon centralisée et automatique
+Faciliter la mise en conformité
+Améliorer la disponibilité des applications
+Réduire les coûts d'exploitation
+
