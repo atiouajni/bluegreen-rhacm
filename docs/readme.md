@@ -41,3 +41,11 @@
      - oc get pods -n open-cluster-management > logs & terminal
 
 > TAKE AWAY : multi-cluster Observability 
+
+**5 - Day 2 configuration et management - conformité du cluster**
+    Pitch :
+    - overview page Govern risk
+    - Categories/standard
+    - Policy -> inform/enforce  - musthave mustnothave
+
+**6 - Application lifecycle > "Manage Applications"**
