@@ -47,8 +47,11 @@ status:
   
 **Resolution :**
 Edit the subscription manifest and add these labels with your specific branch and path
+```shell
     apps.open-cluster-management.io/git-path: openshift-manifests/bluegreen-php
     apps.open-cluster-management.io/git-branch: main
+```
+
 # Cleanup
 
 # Documentation
