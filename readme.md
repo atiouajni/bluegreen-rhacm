@@ -44,7 +44,8 @@ status:
   message: Active
   phase: PropagationFailed
   reason: couldn't find remote ref "refs/heads/master"
-**Issue :**
+  
+**Resolution :**
 Edit the subscription manifest and add these labels with your specific branch and path
     apps.open-cluster-management.io/git-path: openshift-manifests/bluegreen-php
     apps.open-cluster-management.io/git-branch: main
